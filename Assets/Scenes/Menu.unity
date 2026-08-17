@@ -2384,7 +2384,7 @@ MonoBehaviour:
         m_CallState: 2
   onPointerExitAnimationName: OnExit
   onPointerEnterAnimationName: OnEnter
-  onPointerClickAnimationName: OnEnter
+  onPointerClickAnimationName: OnClick
   animator: {fileID: 1719768961}
 --- !u!65 &1719768963
 BoxCollider:

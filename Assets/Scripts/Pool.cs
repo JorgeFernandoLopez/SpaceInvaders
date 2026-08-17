@@ -17,7 +17,7 @@ public class Pool : MonoBehaviour
             {
                 currentObject.SetActive(true);
             }
-            
+
             currentObject.transform.position = position;
             currentObject.transform.rotation = Quaternion.identity;
         }
@@ -35,7 +35,7 @@ public class Pool : MonoBehaviour
     }
     public GameObject InstantiateObject(Transform parent)
     {
-        return InstantiateObject(parent.position, false);   
+        return InstantiateObject(parent.position, false);
     }
     public void ReturnToPool(GameObject obj)
     {

@@ -1,4 +1,4 @@
-using UnityEngine;
+ using UnityEngine;
  
 [CreateAssetMenu(fileName = "LevelManager", menuName = "Scriptable Objects/LevelManager")]
 public class LevelManager : ScriptableObject
@@ -42,5 +42,5 @@ public class LevelData
     public string musicname;
     public EnemiesData[] enemiesData;
 }
- 
+
  
