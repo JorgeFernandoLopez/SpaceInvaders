@@ -165,7 +165,7 @@ MonoBehaviour:
     m_Bits: 8
   reticleSprite: {fileID: 9070599874108100520}
   reticleAnimator: {fileID: 8589730533123959772}
-  spriteDistance: 50
+  spriteDistance: 10
   idleAnimation: Idle
   enterAnimation: Enter
   exitAnimation: Exit
